@@ -1,0 +1,28 @@
+{
+  "name": "@annybs/eslint",
+  "version": "1.0.0",
+  "description": "Aneurin's ESLint config",
+  "main": "eslint.config.js",
+  "files": [
+    "eslint.config.js",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Aneurin Barker Snook <a@aneur.in>",
+  "license": "MIT",
+  "homepage": "https://github.com/annybs/eslint",
+  "repository": "https://github.com/annybs/eslint.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/eslint": "^8.56.10",
+    "@types/eslint__js": "^8.42.3",
+    "typescript-eslint": "^7.13.0"
+  }
+}
